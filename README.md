@@ -13,3 +13,4 @@ This is a website that is made for the sole purpose of exercising CSS skills, wh
 ## Sources and Credits
 
 - Horizontal Line Styling: <https://getbootstrap.com/>
+- Image Coloring: <https://www.w3docs.com/snippets/css/how-to-change-the-color-of-png-image-using-css.html>
