@@ -2,30 +2,33 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700');
 
 /* Global Styling */
-h1 {
-  font-size: 2.4rem;
+h1, h2 {
+  text-transform: uppercase;
   letter-spacing: -1px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
 }
 
 h2 {
-  font-size: 2rem;
-  letter-spacing: -1px;
+  font-size: 2.7rem;
 }
 
-h1, h2 {
-  text-transform: uppercase;
-}
-
-p, li {
+p {
   font-family: "Roboto Condensed"; 
+  font-size: 2rem;
 }
+
 
 /* Page Break Styling */
 .break {
   width: 110%;
   margin-left: -10px;
-  border: 6px solid #A9A9A9;
+  border: 13px solid #A9A9A9;
 }
+
 
 /* Header Styling */
 .header {
@@ -39,20 +42,21 @@ p, li {
   position: absolute;
   right: 10px;
   width: 3.5rem;
+  filter: invert(100%);
 }
 
 
 /* Navigation Bar Styling */
 .navbar {
   display: flex;
-  list-style-type: none;
   justify-content: space-around;
+  list-style-type: none;
   padding: 20px;
-  background-color: #29E929;
+  background-color: #FF9B00;
 }
 
 .navbar li {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -67,14 +71,14 @@ p, li {
 .info {
   display: grid;
   grid-template-columns: 70% 30%;
-  padding-right: 10px;
+  padding: 10px 20px 0px 10px;
   margin: auto;
   gap: 10px;
 }
 
 .info section {
-  background-color: #29E929;
-  padding: 0px 8px;
+  background-color: #FF9b00;
+  padding: 0 8px;
 }
 
 
@@ -94,12 +98,18 @@ p, li {
   width: 100%;
 }
 
+/* Footer Styling */
+.footer p {
+  color: #fff;
+}
 
+.footer a {
+  color: #FF9B00;
+  font-weight: bold;
+}
 
-/* Desktop Responsive Styling */
-@media (min-width: 1730px) {
-
-  h1 {
+@media (min-width: 1650px) {
+   h1 {
     font-size: 6rem;
   }
 
