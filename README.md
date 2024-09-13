@@ -2,23 +2,19 @@
 
 ## Overview
 
-TODO: Write a project description
+This is a website that is made for the sole purpose of exercising CSS skills, whether it be refreshing or learning. Given a screenshot, the target of this website is to replicate that site.
+
+## Please Note
+
+This website has responsive styling. Scale your window down to the same ratio as the screenshot below (relatively small window size).
+![website example](./img/example-page.png "optional title")
+
+## Run
+
+- Open the index.html file
+- Run your html preferred server to view the html file.
+- i.e. VSCode plugin, IntelliJ IDE, etc.
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- Horizontal Line Styling: <https://getbootstrap.com/>
