@@ -21,6 +21,11 @@ p {
   font-size: 2rem;
 }
 
+p > a {
+  color: #FF9B00;
+  font-weight: bold;
+}
+
 
 /* Page Break Styling */
 .break {
@@ -31,14 +36,14 @@ p {
 
 
 /* Header Styling */
-.header {
+header {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.header img {
+header > img {
   position: absolute;
   right: 10px;
   width: 3.5rem;
@@ -68,7 +73,7 @@ p {
 
 
 /* Main Info Container Styling */
-.info {
+main {
   display: grid;
   grid-template-columns: 70% 30%;
   padding: 10px 20px 0px 10px;
@@ -76,7 +81,7 @@ p {
   gap: 10px;
 }
 
-.info section {
+main > section {
   background-color: #FF9b00;
   padding: 0 8px;
 }
@@ -99,14 +104,10 @@ p {
 }
 
 /* Footer Styling */
-.footer p {
+footer > p {
   color: #fff;
 }
 
-.footer a {
-  color: #FF9B00;
-  font-weight: bold;
-}
 
 @media (min-width: 1650px) {
    h1 {
@@ -125,12 +126,12 @@ p {
     border-width: 15px;
   }
 
-  .header img {
+  header > img {
     right: 30px;
     width: 8rem;
   }
 
-  .info {
+  main {
     gap: 20px;
   }
 
